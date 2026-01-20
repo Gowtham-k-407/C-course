@@ -3,7 +3,7 @@
 int main() {
     int a,b;
     scanf("%d",&a);
-    b=a/10;
-    printf("%d",(b*10)+2);
+    b=((a-5)%2==0)?(a-5):(a);
+    printf("%d",b);
      return 0;
 }
